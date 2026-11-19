@@ -1,0 +1,14 @@
+
+{
+  "name": "shopease-white-box-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unit testing White-Box untuk fitur penerapan kupon promo ShopEase",
+  "scripts": {
+    "test": "node --test tests/cart.test.js",
+    "coverage": "c8 --reporter=text --reporter=html node --test tests/cart.test.js"
+  },
+  "devDependencies": {
+    "c8": "^10.1.3"
+  }
+}
